@@ -1,48 +1,66 @@
 @import url("http://fonts.googleapis.com/css?family=Nunito:400,300,700");
 .header {
-    font-family: 'Nunito',sans-serif;
+  font-family: "Nunito", sans-serif;
+  max-width: 1440px;
+}
+
+.navbartext {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #234cad;
+}
+
+.nav-link {
+  font-family: "Nunito", sans-serif;
+  color: #234cad;
+}
+
+.btn-login {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #234cad;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: solid #234cad 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 25px;
+  transform: translateY(0);
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-signup {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #234cad;
+  background-color: #f2f6ff;
+  padding: 10px 30px;
+  border: solid #ffffff 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 25px;
+  transform: translateY(0);
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* jumbotron */
+.jumbotron {
+  margin: 100px;
+  padding: 100px;
+  background-color: #f2f6ff;
+  border: none;
+  border-radius: 50px;
+}
+
+.card .col-md-4 {
+  color: #234cad;
+}
+
+@media (max-width: 768px) {
+  .jumbotron .col-md-8 {
+    margin-top: 24px;
   }
-
-.navbartext{
-    font-family: 'Nunito',sans-serif;
-    font-size: 18px;
-    color: #234cad;
 }
-
-.nav-link{
-    font-family: 'Nunito',sans-serif;
-    color: #234cad;
-}
-
-.btn-login{
-
-    font-family: 'Nunito',sans-serif ;
-    font-weight: 700;
-    font-size: 18px;
-    color: #234cad;
-    background-color: #ffffff;
-    padding: 10px 30px;
-    border: solid #234cad 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 25px;
-    transform: translateY(0);
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-}
-.btn-signup{
-    font-family: 'Nunito',sans-serif ;
-    font-weight: 700;
-    font-size: 18px;
-    color: #234cad;
-    background-color: #f2f6ff;
-    padding: 10px 30px;
-    border: solid #ffffff 2px;
-    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-    border-radius: 25px;
-    transform: translateY(0);
-    flex-direction: row;
-    align-items: center;
-    cursor: pointer;
-}
-
