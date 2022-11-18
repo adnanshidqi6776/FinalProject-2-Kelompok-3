@@ -133,7 +133,7 @@
 }
 
 .features2-bot {
-  margin: 0 7.8vw;
+  margin: 0 7.8vw 150px;
   padding: 30px 7.8vw;
   background-color: #f2f6ff;
   border-radius: 40px;
@@ -169,7 +169,7 @@
 .card-message-4 {
   padding: 1.5vw;
   border-radius: 20px;
-  margin-right: 7.8vw;
+  /* margin-right: 7.8vw; */
 }
 
 /* line-2 */
