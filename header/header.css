@@ -55,12 +55,21 @@
   border-radius: 50px;
 }
 
-.card .col-md-4 {
+.jumbotron .btn {
+  background-color: white;
+}
+
+.jumbotron .btn:hover {
+  background-color: #234cad;
+  color: white;
+}
+
+.card .col-md-5 {
   color: #234cad;
 }
 
 @media (max-width: 768px) {
-  .jumbotron .col-md-8 {
+  .jumbotron .col-md-7 {
     margin-top: 24px;
   }
 }
