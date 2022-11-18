@@ -58,3 +58,5 @@ document.getElementById("messageTime3").innerText = hour();
 document.getElementById("messageTime4").innerText = hour();
 document.getElementById("messageTime5").innerText = hour() + today();
 document.getElementById("messageTime6").innerText = hour();
+document.getElementById("messageTime7").innerText = hour();
+document.getElementById("messageTime8").innerText = hour() + today();
