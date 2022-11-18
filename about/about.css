@@ -1,0 +1,222 @@
+/* google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing {
+    text-align: center;
+    padding-bottom: 3vw;
+}
+
+/* about */
+
+.text-heading {
+    color: #234CAD;
+    padding-bottom: 50px;
+    font-weight: 700;
+}
+.about .btn {
+    border: 2px solid #234CAD;
+    border-radius: 32.5px;
+    padding: 15px;
+    margin-top: 50px;
+    width: 200px;
+    height: 65px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.kanan .col{
+    padding: 90px;
+    margin: 10px;
+    border-radius: 60px;
+    background-color: #F2F6FF;
+}
+
+.btn {
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 20px;
+    flex: none;
+    margin: 10px;
+  }
+  
+  .feature-cal {
+    width: 60px;
+    height: 60px;
+    background-color: #f2f6ff;
+    border-radius: 50%;
+    border: 2px solid #234cad;
+  }
+  
+  .member-meet {
+    background-color: #f2f6ff;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    border: 2px solid white;
+    margin-left: -10px;
+  }
+  
+  .member-meet p {
+    font-size: 1em;
+  }
+
+.card-title {
+    font-weight: 700;
+}
+
+.m-0 {
+    font-weight: 700;
+    color: #234CAD;
+}
+
+
+
+
+
+
+/* card */
+
+.pricing-card :hover {
+	background-color: #ffff;
+	color: #234CAD;
+	transition: all 0.50s ease;
+    border-radius: 60px;    
+}
+
+.card-explor{
+    border: 3px solid #234CAD;
+    border-radius: 60px;
+    margin: 10px;
+    background-color: #F2F6FF;
+}
+
+.card-body {
+ color: #234CAD;
+}
+
+.pricing .btn {
+    border-radius: 37.5px;
+    border: 3px solid #234CAD;
+}
+
+.text-pricing  {
+    font-weight: 700px;
+    color: #234CAD;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+
+
+/* Panel */
+
+.sign {
+    border-radius: 60px;
+    margin-bottom: 5vw;
+    background: #F2F6FF;
+    color: #234CAD;
+    font-weight: 700;
+}
+
+.sign .text {
+    font-weight: 700;
+}
+.sign .btn {
+    border-radius: 12.5px;
+}
+
+.sign .form-control {
+    border-radius: 17.5px;
+    padding: 25px;
+}
+
+.btn-position {
+    transform: translate(-125%,8%);
+    width: 45px;
+    height: 45px;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+
+/* footer 1 */
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    padding: 70px 0;
+    display:block;
+    
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h3{
+	font-size: 30px;
+    font-weight: 700;
+    line-height: 49px;
+	color: #234CAD;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h3::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 18px;
+    font-weight: 400;
+	text-transform: capitalize;
+	color: #234CAD;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #000;
+	padding-left: 8px;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
